@@ -1,7 +1,7 @@
 {
-  "name": "simple-git",
+  "name": "simple-git-with-bin",
   "description": "Simple GIT interface for node.js",
-  "version": "1.86.0",
+  "version": "1.86.1",
   "author": "Steve King <steve@mydev.co>",
   "contributors": [
     {
@@ -27,10 +27,11 @@
     "vcs"
   ],
   "license": "MIT",
-  "repository": "git://github.com/steveukx/git-js.git",
+  "repository": "git://github.com/customized-module/git-js.git",
   "main": "src/index.js",
   "bin": {},
   "scripts": {
-    "test": "node node_modules/nodeunit/bin/nodeunit test/unit/test*.js"
+    "test": "node node_modules/nodeunit/bin/nodeunit test/unit/test*.js",
+    "publish": "grunt"
   }
 }
