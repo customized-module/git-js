@@ -1,7 +1,7 @@
 {
   "name": "simple-git-with-bin",
   "description": "Simple GIT interface for node.js",
-  "version": "1.86.1",
+  "version": "1.87.0",
   "author": "Steve King <steve@mydev.co>",
   "contributors": [
     {
